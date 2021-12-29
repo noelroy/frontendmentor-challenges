@@ -12,6 +12,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
+- [Author](#author)
 
 
 ## Overview
@@ -26,6 +27,10 @@ Users should be able to:
 ### Screenshot
 
 ![](./design/desktop-preview.jpg)
+
+### Links
+
+- Live Site URL: [Using github pages](https://noelroy.github.io/frontendmentor-challenges/nft-preview-card-component-main/)
 
 ## My process
 
@@ -69,3 +74,6 @@ body {
 
 - [Image Overlay](https://www.w3schools.com/howto/howto_css_image_overlay_icon.asp) - This helped me for displaying image overlay for the main image on hover.
 
+## Author
+
+- Frontend Mentor - [@noelroy](https://www.frontendmentor.io/profile/noelroy)

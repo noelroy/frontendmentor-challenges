@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+:root {
+  --color-text: hsl(215, 51%, 70%);
+  --color-text-special: hsl(178, 100%, 50%);
+  --bg-main: hsl(217, 54%, 11%);
+  --bg-card: hsl(216, 50%, 16%);
+  --color-divider: hsl(215, 32%, 27%);
+  --color-white: hsl(0, 0%, 100%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: var(--bg-main);
+  color: var(--color-text);
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.container {
+  width: 330px;
+  margin: 10vh auto;
+}
+
+.card {
+  background-color: var(--bg-card);
+  padding: 5%;
+  border-radius: 10px;
+}
+
+/* Main image related */
+
+.image-container {
+  position: relative;
+  display: flex;
+}
+
+.image-container > img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.image-overlay {
+  position: absolute;
+  background-color: var(--color-text-special);
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 5px;
+}
+
+.image-overlay img {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.image-container:hover .image-overlay {
+  opacity: 0.5;
+}
+
+/* info section related */
+
+.sub-info {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+}
+
+.img-icon {
+  height: 1.5rem;
+  width: auto;
+}
+
+.price-text {
+  color: var(--color-text-special);
+  margin-right: auto;
+}
+
+/* divider */
+
+.divider {
+  border-bottom: 0.5px solid var(--color-divider);
+}
+
+/* created by */
+
+.creator-section {
+  display: flex;
+  padding-top: 1rem;
+  gap: 1rem;
+  align-items: center;
+}
+
+.creator-section img {
+  height: 3rem;
+  width: auto;
+  border: 1px solid var(--color-white);
+  border-radius: 50%;
+}
+
+/* general */
+
+h2 {
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.text-white {
+  color: var(--color-white);
+}
+
+.text-white:hover {
+  color: var(--color-text-special);
+}
+
+.pointer {
+  cursor: pointer;
+}

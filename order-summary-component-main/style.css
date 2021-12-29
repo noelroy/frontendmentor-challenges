@@ -41,6 +41,9 @@ body{
     background-color: var(--color-bg);
     color: var(--color-text);
     min-height: 100vh;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 /* Specific */

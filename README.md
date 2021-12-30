@@ -11,3 +11,5 @@ Using HTML and CSS, create the UI and make it look as close to the design as pos
 1. [NFT preview card](https://github.com/noelroy/frontendmentor-challenges/tree/main/nft-preview-card-component-main)
 
 2. [Order summary card](https://github.com/noelroy/frontendmentor-challenges/tree/main/order-summary-component-main)
+
+3. [Stat preview card](https://github.com/noelroy/frontendmentor-challenges/tree/main/stats-preview-card)
